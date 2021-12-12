@@ -1,0 +1,95 @@
+*, :not(#bg){
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+
+}
+
+#quote{
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.125rem;
+    font-style: italic;
+    color: white;
+}
+
+.container{
+    display: flex;
+    background-color: powderblue;
+    flex-direction: column;
+}
+
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+li {
+    color : rgb(246, 248, 246);
+    text-decoration: underline;
+}
+
+#greeting, #login-form h1, input{
+    font-size: 1.5rem;
+    font-weight: 30px;
+    color :white;
+    
+}
+#login-form{
+    padding-left: 100px;
+    
+}
+
+
+input.form_field{
+    outline: 0;
+    background-color:transparent;
+    border:0;
+    border-width: 0 0 2px;
+    border-bottom: 2px solid rgb(255, 254, 254);
+    }
+
+
+#weather{
+    text-align: right;
+    color: white;
+}
+
+h2#clock{
+    font-size: 5rem;
+    color: white;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+footer{
+    text-align: center;
+    height:60px;
+    margin-top:auto;
+    
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 650px;
+    padding-top: 100px;
+
+}
+
+#todo-list{   
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#todo-form h4{
+    color: white;
+}
+

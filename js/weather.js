@@ -1,6 +1,6 @@
 
 //Be sure to make the API_KEY as string
-const API_KEY ="cc9adc5ce92a3b5e53924dedbc9ca38a";
+const API_KEY = YOUR_WEATHER_API;
 
 //if getCurrentPosition is succeed , it calls onGeoOk function with geolocation object information
 function onGeoOk(pos){
